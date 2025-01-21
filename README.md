@@ -31,9 +31,4 @@ string plaintext = "Sensitive Data";
 string password = "SecurePassword123";
 
 string encrypted = EncryptComplex(plaintext, password);
-Console.WriteLine("Encrypted: " + encrypted);```
-
-### Decryption Example
-```csharp
-string decrypted = DecryptComplex(encrypted, password);
-Console.WriteLine("Decrypted: " + decrypted);
+Console.WriteLine("Encrypted: " + encrypted);
